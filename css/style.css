@@ -1,0 +1,47 @@
+.bg-black{
+	background-color: black;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.hp, .download{
+	background-color: rosybrown;
+	opacity: .4;
+}
+.webb{
+	background: linear-gradient( pink 40%, rosybrown 70%);
+	opacity: .4;
+}
+.font-div{
+	width: 30%;
+	background-color: rosybrown;
+	opacity: .7;
+}
+#home{
+	background-color: rosybrown;
+	opacity: .7;
+}
+#resume{
+	background-color: rosybrown;
+	opacity: .7;
+}
+#work{
+	background-color: rosybrown;
+	opacity: .7;
+}
+#contact{
+	background-color: rosybrown;
+	opacity: .7;
+}
+.card-deck:hover{
+	color: palevioletred;
+	transform: translateY(20px);
+}
+/*------------responsive-----------*/
+
+@media only screen and (min-width: 200px){
+	.font-div, .icon-div{
+		padding: 70px 0px!important;
+	}
+}

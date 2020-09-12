@@ -1,0 +1,5 @@
+<div class="container">
+<footer class="p-5 bg-dark text-center">
+	<button class="btn"><i class="fa fa-download fa-2x ">Download</i></button>
+</footer>
+</div>
